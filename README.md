@@ -1,16 +1,48 @@
-# React + Vite
+# 🔐 PassOP — Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP is a modern, minimal, and secure password manager built using **React**, **Vite**, and **Tailwind CSS**.  
+It allows users to store, manage, and organize their credentials through a clean cyber-themed interface.
 
-Currently, two official plugins are available:
+> 🚀 This project is built as a learning-focused yet production-style React application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🏠 **Home Page** with animated visuals and cyber theme  
+- 🔑 **Password Management Dashboard**
+  - Add website/app credentials
+  - View stored usernames
+  - Masked password display
+  - Edit & delete entries
+- 👤 **User-based structure (frontend)**
+  - Each user can have their own password vault
+- 🎨 **Dark cyber UI**
+  - Black & green theme
+  - Animated navbar
+  - Responsive design
+- 🌐 **Client-side Routing**
+  - Home (`/home`)
+  - Manage (`/manage`)
+- ☁️ **Deployed on Vercel**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React (with Hooks)
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Routing:** React Router DOM
+- **Icons & Animations:** Lord Icons
+- **Storage:** LocalStorage (frontend-only)
+- **Deployment:** Vercel
+
+---
+
+## 🔗 Live Demo
+
+👉 *https://passop-manage.vercel.app/home*
+
+
+
